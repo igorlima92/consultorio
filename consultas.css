@@ -1,0 +1,95 @@
+/* texto sobre consulta remota */
+.consulta__remota {
+    position: absolute;
+    width: 101px;
+    height: 19px;
+    left: 88px;
+    top: 38px;
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: var(--cor--texto--doctor)
+}
+
+/* Texto sobre consulta Local */
+
+.consulta__local {
+    position: absolute;
+    width: 103px;
+    height: 19px;
+    left: 88px;
+    top: 38px;
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: var(--cor--texto--doctor);
+}
+
+/*Hora do modelo de consulta 1 */
+
+.hora__consulta1 {
+    position: absolute;
+    width: 128px;
+    height: 19px;
+    left: 16px;
+    top: 79px;
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: var(--cor--titulo--doctor)
+}
+
+/*Modelo da hora de consulta 2 */
+
+.modelo__consulta2 {
+    position: absolute;
+    width: 152px;
+    height: 19px;
+    left: 16px;
+    top: 79px;
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: var(--cor--titulo--doctor);
+}
+
+.consultas{
+    padding: 0 16px;
+    height: calc(100vh - 110px - 58px);
+    overflow-y: scroll;
+  }
+
+.consultas__data{
+    display: flex;
+    align-items: center;
+    height: 46px;
+  }
+
+.consultas__data strong {
+position: absolute;
+width: 39px;
+height: 26px;
+left: 16px;
+font-family: var(--texto--principal);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+align-items: center;
+}

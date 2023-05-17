@@ -1,0 +1,54 @@
+/*.botao__flutuante {
+    position: relative;
+}
+
+.botao__flutuante .botao__flutuante-cadastro {
+    position: absolute;
+    right: 16px;
+    bottom: 70px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+    z-index: 5;
+    box-shadow: 0px 4px 4px rgba(255, 152, 56, 0.06);
+}
+
+button.botao__flutuante-cadastro span{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url('./image/maisicone.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+*/
+
+.botao__flutuante-cadastro {
+    position: absolute;
+    left: 287px;
+    bottom: 70px;
+    width: 56px;
+    height: 56px;
+    top: 590px;
+    border-radius: 50%;
+    z-index: 5;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+    box-shadow: 0px 4px 4px rgba(255, 152, 56, 0.06);
+    background:var(--cor--botao--azul);
+}
+
+button.botao__flutuante-cadastro span{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url('./image/maisicone.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
